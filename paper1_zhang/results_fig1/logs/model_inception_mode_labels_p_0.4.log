@@ -1,0 +1,34 @@
+run inception__labels__p0.40__bs128__s0__e18146bee430.json on cuda
+ep   1 step    391 lr 0.1 | online loss 2.0700 | train acc 0.3284 | test err 0.5294 | 9s
+ep   2 step    782 lr 0.095 | online loss 1.9209 | train acc 0.3911 | test err 0.4370 | 15s
+ep   3 step   1173 lr 0.09025 | online loss 1.8542 | train acc 0.4374 | test err 0.3654 | 22s
+ep   4 step   1564 lr 0.08574 | online loss 1.8055 | train acc 0.4728 | test err 0.3128 | 28s
+ep   5 step   1955 lr 0.08145 | online loss 1.7648 | train acc 0.4462 | test err 0.3614 | 35s
+ep   6 step   2346 lr 0.07738 | online loss 1.7295 | train acc 0.4863 | test err 0.3067 | 42s
+ep   7 step   2737 lr 0.07351 | online loss 1.6932 | train acc 0.4954 | test err 0.3026 | 48s
+ep   8 step   3128 lr 0.06983 | online loss 1.6605 | train acc 0.5338 | test err 0.2598 | 55s
+ep   9 step   3519 lr 0.06634 | online loss 1.6205 | train acc 0.5341 | test err 0.2756 | 62s
+ep  10 step   3910 lr 0.06302 | online loss 1.5796 | train acc 0.5193 | test err 0.3226 | 68s
+ep  11 step   4301 lr 0.05987 | online loss 1.5354 | train acc 0.5302 | test err 0.3424 | 75s
+ep  12 step   4692 lr 0.05688 | online loss 1.4813 | train acc 0.5823 | test err 0.3098 | 81s
+ep  13 step   5083 lr 0.05404 | online loss 1.4174 | train acc 0.5574 | test err 0.3573 | 88s
+ep  14 step   5474 lr 0.05133 | online loss 1.3402 | train acc 0.5920 | test err 0.3589 | 95s
+ep  15 step   5865 lr 0.04877 | online loss 1.2485 | train acc 0.5323 | test err 0.4788 | 101s
+ep  16 step   6256 lr 0.04633 | online loss 1.1479 | train acc 0.6810 | test err 0.3778 | 108s
+ep  17 step   6647 lr 0.04401 | online loss 1.0266 | train acc 0.6740 | test err 0.4481 | 114s
+ep  18 step   7038 lr 0.04181 | online loss 0.9099 | train acc 0.6761 | test err 0.4771 | 121s
+ep  19 step   7429 lr 0.03972 | online loss 0.7776 | train acc 0.6592 | test err 0.5388 | 128s
+ep  20 step   7820 lr 0.03774 | online loss 0.6551 | train acc 0.7119 | test err 0.5049 | 134s
+ep  21 step   8211 lr 0.03585 | online loss 0.5390 | train acc 0.8077 | test err 0.4784 | 141s
+ep  22 step   8602 lr 0.03406 | online loss 0.4195 | train acc 0.7914 | test err 0.4972 | 147s
+ep  23 step   8993 lr 0.03235 | online loss 0.3360 | train acc 0.8757 | test err 0.5110 | 154s
+ep  24 step   9384 lr 0.03074 | online loss 0.2520 | train acc 0.9100 | test err 0.5090 | 161s
+ep  25 step   9775 lr 0.0292 | online loss 0.1784 | train acc 0.9368 | test err 0.5027 | 167s
+ep  26 step  10166 lr 0.02774 | online loss 0.1157 | train acc 0.9199 | test err 0.4954 | 174s
+ep  27 step  10557 lr 0.02635 | online loss 0.0707 | train acc 0.9878 | test err 0.4787 | 180s
+ep  28 step  10948 lr 0.02503 | online loss 0.0331 | train acc 0.9962 | test err 0.4594 | 187s
+ep  29 step  11339 lr 0.02378 | online loss 0.0130 | train acc 0.9999 | test err 0.4548 | 194s
+ep  30 step  11730 lr 0.02259 | online loss 0.0050 | train acc 0.9999 | test err 0.4345 | 200s
+done: ./results_fig1/inception__labels__p0.40__bs128__s0__e18146bee430.json
+  converged: {'step': 10948, 'epoch': 28, 'train_acc': 0.99622, 'test_error': 0.45940000000000003, 'train_seconds': 187.01538825035095}
+  final: {'step': 11730, 'epoch': 30, 'train_acc': 0.99994, 'test_error': 0.4345, 'train_seconds': 200.21691012382507}

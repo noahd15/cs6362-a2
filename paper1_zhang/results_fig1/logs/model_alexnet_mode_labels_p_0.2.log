@@ -1,0 +1,32 @@
+run alexnet__labels__p0.20__bs128__s0__ce94db6a1c79.json on cuda
+ep   1 step    391 lr 0.01 | online loss 2.0536 | train acc 0.3667 | test err 0.5665 | 1s
+ep   2 step    782 lr 0.0095 | online loss 1.7738 | train acc 0.4497 | test err 0.4734 | 2s
+ep   3 step   1173 lr 0.009025 | online loss 1.6251 | train acc 0.5080 | test err 0.4056 | 3s
+ep   4 step   1564 lr 0.008574 | online loss 1.5208 | train acc 0.5572 | test err 0.3618 | 5s
+ep   5 step   1955 lr 0.008145 | online loss 1.4491 | train acc 0.5912 | test err 0.3294 | 6s
+ep   6 step   2346 lr 0.007738 | online loss 1.3915 | train acc 0.6008 | test err 0.3354 | 7s
+ep   7 step   2737 lr 0.007351 | online loss 1.3352 | train acc 0.6377 | test err 0.3042 | 8s
+ep   8 step   3128 lr 0.006983 | online loss 1.2796 | train acc 0.6611 | test err 0.2898 | 9s
+ep   9 step   3519 lr 0.006634 | online loss 1.2245 | train acc 0.6769 | test err 0.2856 | 10s
+ep  10 step   3910 lr 0.006302 | online loss 1.1717 | train acc 0.6978 | test err 0.2830 | 11s
+ep  11 step   4301 lr 0.005987 | online loss 1.1092 | train acc 0.7134 | test err 0.2819 | 12s
+ep  12 step   4692 lr 0.005688 | online loss 1.0488 | train acc 0.7426 | test err 0.2793 | 13s
+ep  13 step   5083 lr 0.005404 | online loss 0.9761 | train acc 0.7511 | test err 0.2932 | 14s
+ep  14 step   5474 lr 0.005133 | online loss 0.9011 | train acc 0.7746 | test err 0.2963 | 15s
+ep  15 step   5865 lr 0.004877 | online loss 0.8197 | train acc 0.8121 | test err 0.3004 | 16s
+ep  16 step   6256 lr 0.004633 | online loss 0.7368 | train acc 0.8219 | test err 0.3220 | 17s
+ep  17 step   6647 lr 0.004401 | online loss 0.6378 | train acc 0.8521 | test err 0.3220 | 18s
+ep  18 step   7038 lr 0.004181 | online loss 0.5447 | train acc 0.8810 | test err 0.3393 | 19s
+ep  19 step   7429 lr 0.003972 | online loss 0.4523 | train acc 0.9065 | test err 0.3422 | 20s
+ep  20 step   7820 lr 0.003774 | online loss 0.3678 | train acc 0.9247 | test err 0.3575 | 21s
+ep  21 step   8211 lr 0.003585 | online loss 0.2883 | train acc 0.9399 | test err 0.3680 | 22s
+ep  22 step   8602 lr 0.003406 | online loss 0.2148 | train acc 0.9640 | test err 0.3633 | 23s
+ep  23 step   8993 lr 0.003235 | online loss 0.1536 | train acc 0.9645 | test err 0.3748 | 24s
+ep  24 step   9384 lr 0.003074 | online loss 0.1123 | train acc 0.9834 | test err 0.3790 | 25s
+ep  25 step   9775 lr 0.00292 | online loss 0.0794 | train acc 0.9892 | test err 0.3724 | 26s
+ep  26 step  10166 lr 0.002774 | online loss 0.0501 | train acc 0.9940 | test err 0.3629 | 27s
+ep  27 step  10557 lr 0.002635 | online loss 0.0333 | train acc 0.9976 | test err 0.3630 | 28s
+ep  28 step  10948 lr 0.002503 | online loss 0.0206 | train acc 0.9982 | test err 0.3711 | 29s
+done: ./results_fig1/alexnet__labels__p0.20__bs128__s0__ce94db6a1c79.json
+  converged: {'step': 10166, 'epoch': 26, 'train_acc': 0.99398, 'test_error': 0.3629, 'train_seconds': 26.819761037826538}
+  final: {'step': 10948, 'epoch': 28, 'train_acc': 0.99816, 'test_error': 0.3711, 'train_seconds': 28.73383402824402}

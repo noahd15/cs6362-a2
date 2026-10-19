@@ -1,0 +1,33 @@
+run mlp_1x512__labels__p0.00__bs128__s0__b2d9f35d09d6.json on cuda
+ep   1 step    391 lr 0.01 | online loss 1.6414 | train acc 0.5037 | test err 0.5340 | 0s
+ep   2 step    782 lr 0.0095 | online loss 1.4143 | train acc 0.5638 | test err 0.5015 | 1s
+ep   3 step   1173 lr 0.009025 | online loss 1.2964 | train acc 0.5899 | test err 0.5056 | 1s
+ep   4 step   1564 lr 0.008574 | online loss 1.2060 | train acc 0.6288 | test err 0.4932 | 1s
+ep   5 step   1955 lr 0.008145 | online loss 1.1157 | train acc 0.6586 | test err 0.4958 | 1s
+ep   6 step   2346 lr 0.007738 | online loss 1.0407 | train acc 0.6791 | test err 0.4985 | 2s
+ep   7 step   2737 lr 0.007351 | online loss 0.9640 | train acc 0.7123 | test err 0.4930 | 2s
+ep   8 step   3128 lr 0.006983 | online loss 0.8907 | train acc 0.7414 | test err 0.4847 | 2s
+ep   9 step   3519 lr 0.006634 | online loss 0.8158 | train acc 0.7599 | test err 0.4861 | 2s
+ep  10 step   3910 lr 0.006302 | online loss 0.7513 | train acc 0.7962 | test err 0.4839 | 3s
+ep  11 step   4301 lr 0.005987 | online loss 0.6823 | train acc 0.8101 | test err 0.4964 | 3s
+ep  12 step   4692 lr 0.005688 | online loss 0.6232 | train acc 0.8318 | test err 0.4837 | 3s
+ep  13 step   5083 lr 0.005404 | online loss 0.5661 | train acc 0.8447 | test err 0.4873 | 3s
+ep  14 step   5474 lr 0.005133 | online loss 0.5097 | train acc 0.8697 | test err 0.4856 | 3s
+ep  15 step   5865 lr 0.004877 | online loss 0.4562 | train acc 0.8938 | test err 0.4802 | 4s
+ep  16 step   6256 lr 0.004633 | online loss 0.4036 | train acc 0.9060 | test err 0.4849 | 4s
+ep  17 step   6647 lr 0.004401 | online loss 0.3589 | train acc 0.9153 | test err 0.4865 | 4s
+ep  18 step   7038 lr 0.004181 | online loss 0.3190 | train acc 0.9342 | test err 0.4803 | 4s
+ep  19 step   7429 lr 0.003972 | online loss 0.2766 | train acc 0.9411 | test err 0.4787 | 4s
+ep  20 step   7820 lr 0.003774 | online loss 0.2467 | train acc 0.9486 | test err 0.4839 | 5s
+ep  21 step   8211 lr 0.003585 | online loss 0.2164 | train acc 0.9620 | test err 0.4866 | 5s
+ep  22 step   8602 lr 0.003406 | online loss 0.1905 | train acc 0.9738 | test err 0.4827 | 5s
+ep  23 step   8993 lr 0.003235 | online loss 0.1699 | train acc 0.9780 | test err 0.4819 | 5s
+ep  24 step   9384 lr 0.003074 | online loss 0.1491 | train acc 0.9825 | test err 0.4829 | 5s
+ep  25 step   9775 lr 0.00292 | online loss 0.1323 | train acc 0.9869 | test err 0.4819 | 6s
+ep  26 step  10166 lr 0.002774 | online loss 0.1185 | train acc 0.9896 | test err 0.4785 | 6s
+ep  27 step  10557 lr 0.002635 | online loss 0.1078 | train acc 0.9920 | test err 0.4777 | 6s
+ep  28 step  10948 lr 0.002503 | online loss 0.0984 | train acc 0.9923 | test err 0.4814 | 6s
+ep  29 step  11339 lr 0.002378 | online loss 0.0894 | train acc 0.9950 | test err 0.4813 | 7s
+done: ./results_fig1/mlp_1x512__labels__p0.00__bs128__s0__b2d9f35d09d6.json
+  converged: {'step': 10557, 'epoch': 27, 'train_acc': 0.992, 'test_error': 0.4777, 'train_seconds': 6.115597248077393}
+  final: {'step': 11339, 'epoch': 29, 'train_acc': 0.99504, 'test_error': 0.48129999999999995, 'train_seconds': 6.5352623462677}
