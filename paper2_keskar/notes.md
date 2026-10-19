@@ -82,3 +82,10 @@
 - Distance from init, ||x_s-x0|| / ||x_l-x0||: F1 9.32, C1 4.13, C2 11.87
   (paper Sec. 3: 3-10). Independent confirmation that SB travels much
   farther from the shared init than LB.
+- Fig. 3 reproduced (plot_results.ipynb from saved JSONs). Qualitative
+  match on all three panels: F1 flat through alpha=1 then sharp rise after
+  LB; C1 barrier just before alpha=1 then spike; C2 dip near alpha~0.75 as
+  in the paper.
+- Distance from init, ||x_s-x0|| / ||x_l-x0||: F1 9.32, C1 4.13, C2 11.87
+  (paper Sec. 3: 3-10). Independent confirmation that SB travels much
+  farther from the shared init than LB.
