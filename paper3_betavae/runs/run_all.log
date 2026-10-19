@@ -19,3 +19,13 @@ NVIDIA GeForce RTX 3090, 24576 MiB, 595.99.02
 [2026-10-19 12:36:09] start beta4_seed0
 [2026-10-19 12:50:54] end beta4_seed0 exit=0 {"status": "done", "step": 500000}
 [2026-10-19 12:50:54] start beta4_seed1
+[2026-10-19 13:04:33] end beta4_seed1 exit=0 {"status": "done", "step": 500000}
+[2026-10-19 13:04:33] start beta4_seed2
+[2026-10-19 13:30:28] end beta4_seed2 exit=0 {"status": "done", "step": 500000}
+[2026-10-19 13:30:28] sweep finished
+  beta1_seed0      {"status": "done", "step": 500000}  analysis:yes
+  beta1_seed1      {"status": "done", "step": 500000}  analysis:yes
+  beta1_seed2      {"status": "done", "step": 500000}  analysis:yes
+  beta4_seed0      {"status": "done", "step": 500000}  analysis:yes
+  beta4_seed1      {"status": "done", "step": 500000}  analysis:yes
+  beta4_seed2      {"status": "done", "step": 500000}  analysis:yes

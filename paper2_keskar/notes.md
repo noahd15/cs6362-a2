@@ -89,3 +89,31 @@
 - Distance from init, ||x_s-x0|| / ||x_l-x0||: F1 9.32, C1 4.13, C2 11.87
   (paper Sec. 3: 3-10). Independent confirmation that SB travels much
   farther from the shared init than LB.
+## Phase 4 — authors' code (github.com/keskarnitish/large-batch-training)
+- Keras 1 / Theano. network_zoo.py (shallownet=C1, deepnet=C2) and
+  plot_parametric_plot.py. No F1 code released.
+- C1: authors' convs are STRIDE 1 ('same', Keras default), MaxPool 3x3
+  stride 2 'same' -> 8x8 maps before dense. Paper App. B.3 says
+  [64,5,5,2] = stride 2 (we followed the paper -> 2x2 maps). Paper and
+  code disagree. Likely cause of our ~10-pt C1 test-accuracy gap.
+- BN: Keras BatchNormalization(mode=2) = per-batch stats at train AND
+  eval (eval batch 5000); only trainable weights interpolated. No stale
+  running stats; test eval uses test-batch stats. Ours: recompute on
+  full train set at each alpha (same intent, train-set stats for test).
+- Training: fixed 20 epochs, no early stopping (paper text: "until the
+  loss function ceased to improve"). Ours: plateau rule.
+- C2: extra dropout 0.3/0.4 after most conv layers and 0.5 before the
+  dense layer; paper App. B says dropout on dense layers only. Ours
+  follows the paper.
+- Init: Keras glorot_uniform vs our PyTorch kaiming_uniform.
+- Identical: Adam defaults, shared x0, SB 256 / LB 5000, 25-point alpha
+  grid on [-1,2], /255 scaling, no augmentation.
+- Phase 4 change: train_phase4.py = train.py with C1 conv stride 2 -> 1
+  (one line). Rerun C1, patience 50, into results_phase4/.
+- PHASE 4 RESULT, C1 with stride-1 convs (train_phase4.py, patience 50,
+  results_phase4/): SB stopped epoch 300 (cap), LB epoch 185 (plateau).
+  Path eval: alpha=0 train 100.00% test 80.51%; alpha=1 train 99.99%
+  test 77.15% (paper 99.89/80.04, 99.66/77.26). Gap 3.36 (paper 2.78).
+  Test acc rose ~10 pts in both regimes and matches the paper to <0.5
+  pts. Conclusion: paper App. B.3's stride-2 description is wrong; the
+  network behind Table 2 used stride-1 convs as in the released code.
