@@ -33,3 +33,20 @@
 - Remaining test-accuracy shortfall (~11 pts) may be architecture: the
   MaxPool(3) stride/padding is unstated. Check in Phase 4 against the
   authors' released code (github.com/keskarnitish/large-batch-training).
+- C1 rerun, --patience 50 (results_patience50/): LB training log ends at
+  98.42% train, but that eval uses training-time BN running stats, which
+  are noisy with only 10 LB steps/epoch. With BN recalibrated on the full
+  train set (path eval): alpha=0 (SB) train 99.80% test 70.61%; alpha=1
+  (LB) train 99.86% test 67.22%. Both now fit the training set; SB-LB test
+  gap 3.4 pts (paper 2.8).
+- C1 path: SB side flat (train loss 0.006 at alpha=0 -> 0.36 at alpha=-1);
+  LB side sharp (0.006 at alpha=1 -> 6.07 at alpha=1.125, train acc 39%).
+  Loss barrier between them (max ~2.0 near alpha=0.875): separate basins.
+  Qualitatively matches Fig. 3. Test acc ~10 pts below paper for both;
+  suspect unstated MaxPool(3) stride/padding -> check in Phase 4.
+- C2 SB under default patience 15: plateau at epoch 115, train 99.83%
+  test 86.74% (paper 99.99/89.24). Fits the training set; kept.
+- Stopping-rule decision: default patience 15; raised to 50 only for C1,
+  where the default left both runs short of fitting the training set.
+  C2 LB judged by alpha=1 train acc after BN recalibration; rerun with
+  patience 50 only if it falls short.

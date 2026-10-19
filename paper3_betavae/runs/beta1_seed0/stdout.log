@@ -20,3 +20,17 @@
 [2026-10-19 11:44:03] beta1_seed0 step  190000/500000  loss    64.47  recon    46.47  KL  18.00     287 it/s
 [2026-10-19 11:44:38] beta1_seed0 step  200000/500000  loss    63.93  recon    45.86  KL  18.07     286 it/s
 [2026-10-19 11:45:12] beta1_seed0 step  210000/500000  loss    63.25  recon    45.13  KL  18.12     290 it/s
+[2026-10-19 11:45:56] beta1_seed0 step  220000/500000  loss    62.84  recon    44.70  KL  18.15     210 it/s
+[2026-10-19 11:46:44] beta1_seed0 step  230000/500000  loss    62.15  recon    43.94  KL  18.21     211 it/s
+[2026-10-19 11:47:31] beta1_seed0 step  240000/500000  loss    61.86  recon    43.59  KL  18.27     215 it/s
+[2026-10-19 11:48:18] beta1_seed0 step  250000/500000  loss    61.39  recon    43.08  KL  18.31     212 it/s
+[2026-10-19 11:49:06] beta1_seed0 step  260000/500000  loss    60.79  recon    42.43  KL  18.36     210 it/s
+[2026-10-19 11:49:52] beta1_seed0 step  270000/500000  loss    60.40  recon    42.03  KL  18.37     224 it/s
+[2026-10-19 11:50:39] beta1_seed0 step  280000/500000  loss    60.00  recon    41.59  KL  18.40     217 it/s
+[2026-10-19 11:51:26] beta1_seed0 step  290000/500000  loss    59.72  recon    41.25  KL  18.47     216 it/s
+[2026-10-19 11:52:12] beta1_seed0 step  300000/500000  loss    59.38  recon    40.88  KL  18.50     218 it/s
+[2026-10-19 11:52:58] beta1_seed0 step  310000/500000  loss    59.05  recon    40.55  KL  18.50     213 it/s
+[2026-10-19 11:53:36] beta1_seed0 step  320000/500000  loss    58.54  recon    40.00  KL  18.54     255 it/s
+[2026-10-19 11:54:12] beta1_seed0 step  330000/500000  loss    58.19  recon    39.60  KL  18.59     284 it/s
+[2026-10-19 11:54:47] beta1_seed0 step  340000/500000  loss    57.93  recon    39.30  KL  18.63     292 it/s
+[2026-10-19 11:55:22] beta1_seed0 step  350000/500000  loss    57.72  recon    39.08  KL  18.64     284 it/s
