@@ -34,3 +34,20 @@
 [2026-10-19 11:54:12] beta1_seed0 step  330000/500000  loss    58.19  recon    39.60  KL  18.59     284 it/s
 [2026-10-19 11:54:47] beta1_seed0 step  340000/500000  loss    57.93  recon    39.30  KL  18.63     292 it/s
 [2026-10-19 11:55:22] beta1_seed0 step  350000/500000  loss    57.72  recon    39.08  KL  18.64     284 it/s
+[2026-10-19 11:55:56] beta1_seed0 step  360000/500000  loss    57.47  recon    38.79  KL  18.68     284 it/s
+[2026-10-19 11:56:31] beta1_seed0 step  370000/500000  loss    57.01  recon    38.30  KL  18.71     292 it/s
+[2026-10-19 11:57:06] beta1_seed0 step  380000/500000  loss    56.94  recon    38.19  KL  18.75     284 it/s
+[2026-10-19 11:57:41] beta1_seed0 step  390000/500000  loss    56.69  recon    37.93  KL  18.76     284 it/s
+[2026-10-19 11:58:15] beta1_seed0 step  400000/500000  loss    56.24  recon    37.48  KL  18.76     292 it/s
+[2026-10-19 11:58:50] beta1_seed0 step  410000/500000  loss    56.13  recon    37.33  KL  18.80     286 it/s
+[2026-10-19 11:59:25] beta1_seed0 step  420000/500000  loss    55.77  recon    36.92  KL  18.85     284 it/s
+[2026-10-19 12:00:00] beta1_seed0 step  430000/500000  loss    55.83  recon    36.98  KL  18.85     318 it/s
+[2026-10-19 12:00:35] beta1_seed0 step  440000/500000  loss    55.28  recon    36.40  KL  18.88     287 it/s
+[2026-10-19 12:01:09] beta1_seed0 step  450000/500000  loss    55.23  recon    36.34  KL  18.89     284 it/s
+[2026-10-19 12:01:44] beta1_seed0 step  460000/500000  loss    55.07  recon    36.12  KL  18.94     288 it/s
+[2026-10-19 12:02:19] beta1_seed0 step  470000/500000  loss    54.93  recon    35.99  KL  18.94     288 it/s
+[2026-10-19 12:02:54] beta1_seed0 step  480000/500000  loss    54.66  recon    35.70  KL  18.96     284 it/s
+[2026-10-19 12:03:28] beta1_seed0 step  490000/500000  loss    54.48  recon    35.47  KL  19.00     287 it/s
+[2026-10-19 12:04:03] beta1_seed0 step  500000/500000  loss    54.34  recon    35.34  KL  19.00     291 it/s
+[2026-10-19 12:04:04] beta1_seed0: done at step 500000
+[2026-10-19 12:04:05] beta1_seed0: wrote runs/beta1_seed0/analysis.npz (checkpoint step 500000)
