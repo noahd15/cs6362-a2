@@ -10,3 +10,12 @@
   0.9012. Checked per-epoch curves: all three differ throughout and
   fluctuate around 0.90 (chance) by about ±0.005. Coincidence, not cache
   reuse; confirms the near-chance models end at chance as expected.
+- RESULT, AlexNet p=1.0, 200 epochs: train acc 0.9639 (vs 0.9217 at 100
+  epochs; paper Table 1: 99.82%). Crossed 0.95 but not 0.98/0.99. Growth
+  decelerates because the schedule 0.01*0.95^e has only ~0.6% of its total
+  lr mass after epoch 100 and ~0.004% after 200, so the run is effectively
+  frozen. Conclusion: under the paper's stated App. A schedule AlexNet
+  cannot reach Table 1's random-label accuracy; the authors' actual
+  training must have differed (schedule, batch size or init). Documented
+  mismatch, not a bug. For panel (b), AlexNet p=1 converges only under the
+  0.95 threshold; report threshold sensitivity.
