@@ -19,3 +19,12 @@
   training must have differed (schedule, batch size or init). Documented
   mismatch, not a bug. For panel (b), AlexNet p=1 converges only under the
   0.95 threshold; report threshold sensitivity.
+- Fig. 1 generated with plot_fig1.py at thresholds 0.95/0.98/0.99
+  (test error at crossing). Main figure: 0.99. AlexNet p=1.0 never reached
+  0.99 -> omitted from (b)/(c) and flagged; it does count at 0.95. The
+  100-epoch AlexNet p=1 run moved to results_fig1_extra/.
+- Batch-size sensitivity, Inception random labels, steps to 0.99:
+  bs64 50,830 (ep 65); bs128 18,377 (ep 47); bs256 8,232 (ep 42). Step
+  axis of Fig. 1a/1b depends strongly on the unstated batch size.
+- Run-to-run: original p=1 bs128 run and its min-steps rerun (same seed)
+  cross 0.95 at 17,986 vs 17,595 steps (~2%), GPU nondeterminism.

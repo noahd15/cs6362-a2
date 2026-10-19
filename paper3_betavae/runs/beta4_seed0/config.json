@@ -1,0 +1,28 @@
+{
+  "beta": 4.0,
+  "seed": 0,
+  "budget": "full",
+  "n_iters": 500000,
+  "batch_size": 64,
+  "lr": 0.01,
+  "x_dim": 4096,
+  "z_dim": 10,
+  "enc_hidden": [
+    1200,
+    1200
+  ],
+  "dec_hidden": [
+    1200,
+    1200,
+    1200
+  ],
+  "log_every": 1000,
+  "print_every_logs": 10,
+  "ckpt_every": 25000,
+  "allow_tf32": false,
+  "data_dir": "data",
+  "run_dir": "runs",
+  "device": "cuda",
+  "torch_version": "2.14.1+cu130",
+  "gpu": "NVIDIA GeForce RTX 3090"
+}

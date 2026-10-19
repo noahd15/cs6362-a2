@@ -1,0 +1,6 @@
+[2026-10-19 12:36:10] loading images to cuda
+[2026-10-19 12:36:28] beta4_seed0 step   10000/500000  loss   137.48  recon    99.99  KL   9.37     619 it/s
+[2026-10-19 12:36:45] beta4_seed0 step   20000/500000  loss   134.38  recon    96.19  KL   9.55     618 it/s
+[2026-10-19 12:37:01] beta4_seed0 step   30000/500000  loss   133.30  recon    94.97  KL   9.58     617 it/s
+[2026-10-19 12:37:17] beta4_seed0 step   40000/500000  loss   132.34  recon    93.98  KL   9.59     618 it/s
+[2026-10-19 12:37:33] beta4_seed0 step   50000/500000  loss   129.82  recon    90.30  KL   9.88     617 it/s
