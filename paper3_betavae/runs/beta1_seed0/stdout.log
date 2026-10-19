@@ -1,1 +1,2 @@
 [2026-10-19 11:33:05] loading images to cuda
+[2026-10-19 11:33:42] beta1_seed0 step   10000/500000  loss   106.00  recon    91.24  KL  14.76     286 it/s

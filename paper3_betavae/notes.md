@@ -15,3 +15,10 @@
   latent (the Fig. 7 ordering criterion, per its caption).
 - TODO: check notebook for latent ordering and traversal (+-3 sd from a
   seed image's posterior mean, other 9 latents fixed).
+- Notebook reviewed: columns ordered by ascending learnt variance (Fig. 7
+  last row); traversal sets one latent to 5 values in [+3,-3] (prior mean
+  0, prior sd 1) with the other 9 fixed at the posterior mean of one
+  dataset image; rows 1-3 and shape colours match the caption; A = beta 4,
+  B = beta 1; one figure per seed, no seed selected.
+- Notebook assumptions: shows only latents with KL > 0.05 plus one
+  Z_unused; factor labels from an eta^2 > 0.5 rule (paper labels by eye).
