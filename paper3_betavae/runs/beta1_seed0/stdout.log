@@ -1,2 +1,22 @@
 [2026-10-19 11:33:05] loading images to cuda
 [2026-10-19 11:33:42] beta1_seed0 step   10000/500000  loss   106.00  recon    91.24  KL  14.76     286 it/s
+[2026-10-19 11:34:14] beta1_seed0 step   20000/500000  loss    94.44  recon    79.26  KL  15.18     286 it/s
+[2026-10-19 11:34:49] beta1_seed0 step   30000/500000  loss    88.29  recon    72.40  KL  15.89     290 it/s
+[2026-10-19 11:35:23] beta1_seed0 step   40000/500000  loss    83.21  recon    66.58  KL  16.63     289 it/s
+[2026-10-19 11:35:58] beta1_seed0 step   50000/500000  loss    80.34  recon    63.46  KL  16.88     286 it/s
+[2026-10-19 11:36:32] beta1_seed0 step   60000/500000  loss    78.65  recon    61.61  KL  17.04     288 it/s
+[2026-10-19 11:37:07] beta1_seed0 step   70000/500000  loss    76.84  recon    59.67  KL  17.17     288 it/s
+[2026-10-19 11:37:42] beta1_seed0 step   80000/500000  loss    75.34  recon    58.07  KL  17.27     286 it/s
+[2026-10-19 11:38:16] beta1_seed0 step   90000/500000  loss    73.98  recon    56.63  KL  17.35     289 it/s
+[2026-10-19 11:38:51] beta1_seed0 step  100000/500000  loss    72.54  recon    55.10  KL  17.44     320 it/s
+[2026-10-19 11:39:26] beta1_seed0 step  110000/500000  loss    71.40  recon    53.88  KL  17.53     286 it/s
+[2026-10-19 11:40:00] beta1_seed0 step  120000/500000  loss    70.25  recon    52.66  KL  17.58     290 it/s
+[2026-10-19 11:40:35] beta1_seed0 step  130000/500000  loss    69.15  recon    51.49  KL  17.66     287 it/s
+[2026-10-19 11:41:10] beta1_seed0 step  140000/500000  loss    68.35  recon    50.62  KL  17.74     286 it/s
+[2026-10-19 11:41:44] beta1_seed0 step  150000/500000  loss    67.41  recon    49.62  KL  17.79     289 it/s
+[2026-10-19 11:42:19] beta1_seed0 step  160000/500000  loss    66.51  recon    48.67  KL  17.85     287 it/s
+[2026-10-19 11:42:54] beta1_seed0 step  170000/500000  loss    65.96  recon    48.04  KL  17.92     286 it/s
+[2026-10-19 11:43:28] beta1_seed0 step  180000/500000  loss    65.28  recon    47.29  KL  17.99     291 it/s
+[2026-10-19 11:44:03] beta1_seed0 step  190000/500000  loss    64.47  recon    46.47  KL  18.00     287 it/s
+[2026-10-19 11:44:38] beta1_seed0 step  200000/500000  loss    63.93  recon    45.86  KL  18.07     286 it/s
+[2026-10-19 11:45:12] beta1_seed0 step  210000/500000  loss    63.25  recon    45.13  KL  18.12     290 it/s

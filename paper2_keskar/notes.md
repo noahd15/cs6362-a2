@@ -22,3 +22,14 @@
   train 100.00% test 98.62%. Both fit the training set (paper: 99.66/
   99.92). Generalization gap 0.03 pts vs paper's 0.22 pts; F1 has the
   smallest gap of the six networks in the paper as well.
+- C1, default stopping (patience 15, 0.1% rel. improvement): SB stopped
+  epoch 119, train 98.37% test 68.79%; LB stopped epoch 111, train 96.61%
+  test 65.15%. Paper Table 2: SB 99.89/80.04, LB 99.66/77.26. Gap
+  direction reproduced (SB-LB test = 3.6 pts vs paper 2.8) but neither run
+  fit the training set, and LB fit it worse, which confounds Fig. 3.
+  Diagnosis: plateau rule too aggressive vs paper's "until the loss
+  function ceased to improve". Fix (Phase 3): rerun with --patience 50
+  into results_patience50/, keeping the original run as evidence.
+- Remaining test-accuracy shortfall (~11 pts) may be architecture: the
+  MaxPool(3) stride/padding is unstated. Check in Phase 4 against the
+  authors' released code (github.com/keskarnitish/large-batch-training).
