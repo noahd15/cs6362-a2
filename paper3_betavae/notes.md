@@ -22,3 +22,17 @@
   B = beta 1; one figure per seed, no seed selected.
 - Notebook assumptions: shows only latents with KL > 0.05 plus one
   Z_unused; factor labels from an eta^2 > 0.5 rule (paper labels by eye).
+- Per-latent stats (figure7.ipynb). Active latents / total KL (nats) /
+  latents with single-factor eta^2 > 0.5:
+    beta=4 s0: 5 / 12.1 / 3 (posY .93, posX .97, scale .55)
+    beta=1 s0: 6 / 19.0 / 0
+    beta=1 s1: 7 / 20.6 / 3 (posX .81, posY .74, posY .52)
+    beta=1 s2: 6 / 18.9 / 2 (posX .78, posY .82)
+- beta=4 encodes ~40% less information, in fewer latents. beta=1 is not
+  uniformly entangled: seeds 1-2 find fairly clean position latents, but
+  never a dedicated scale latent, and its position latents are less pure.
+  Seed 0 alone would overstate the contrast -> report all seeds.
+- Shape gets no latent in any run (eta^2 <= 0.13): discrete factor.
+- Rotation latents have eta^2 ~0.2 despite clean rotating traversals:
+  the response interacts with scale and shape symmetry, which a
+  main-effect score does not capture.

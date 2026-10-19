@@ -44,3 +44,10 @@
 [2026-10-19 12:48:58] beta4_seed0 step  430000/500000  loss   104.34  recon    56.56  KL  11.95     619 it/s
 [2026-10-19 12:49:15] beta4_seed0 step  440000/500000  loss   103.90  recon    55.98  KL  11.98     618 it/s
 [2026-10-19 12:49:31] beta4_seed0 step  450000/500000  loss   103.87  recon    55.91  KL  11.99     617 it/s
+[2026-10-19 12:49:47] beta4_seed0 step  460000/500000  loss   103.84  recon    55.79  KL  12.01     617 it/s
+[2026-10-19 12:50:03] beta4_seed0 step  470000/500000  loss   103.62  recon    55.55  KL  12.02     617 it/s
+[2026-10-19 12:50:20] beta4_seed0 step  480000/500000  loss   103.41  recon    55.28  KL  12.03     617 it/s
+[2026-10-19 12:50:36] beta4_seed0 step  490000/500000  loss   103.45  recon    55.09  KL  12.09     618 it/s
+[2026-10-19 12:50:52] beta4_seed0 step  500000/500000  loss   103.22  recon    54.88  KL  12.08     617 it/s
+[2026-10-19 12:50:53] beta4_seed0: done at step 500000
+[2026-10-19 12:50:53] beta4_seed0: wrote runs/beta4_seed0/analysis.npz (checkpoint step 500000)
