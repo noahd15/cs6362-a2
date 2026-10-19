@@ -38,3 +38,16 @@
 [2026-10-19 12:18:30] beta1_seed1 step  370000/500000  loss    55.42  recon    35.05  KL  20.37     619 it/s
 [2026-10-19 12:18:46] beta1_seed1 step  380000/500000  loss    55.21  recon    34.84  KL  20.37     619 it/s
 [2026-10-19 12:19:02] beta1_seed1 step  390000/500000  loss    54.99  recon    34.57  KL  20.42     619 it/s
+[2026-10-19 12:19:18] beta1_seed1 step  400000/500000  loss    54.77  recon    34.32  KL  20.45     619 it/s
+[2026-10-19 12:19:35] beta1_seed1 step  410000/500000  loss    54.59  recon    34.13  KL  20.47     619 it/s
+[2026-10-19 12:19:51] beta1_seed1 step  420000/500000  loss    54.26  recon    33.80  KL  20.46     619 it/s
+[2026-10-19 12:20:07] beta1_seed1 step  430000/500000  loss    54.12  recon    33.61  KL  20.51     619 it/s
+[2026-10-19 12:20:23] beta1_seed1 step  440000/500000  loss    53.99  recon    33.47  KL  20.52     619 it/s
+[2026-10-19 12:20:39] beta1_seed1 step  450000/500000  loss    53.75  recon    33.23  KL  20.52     619 it/s
+[2026-10-19 12:20:56] beta1_seed1 step  460000/500000  loss    53.62  recon    33.06  KL  20.56     619 it/s
+[2026-10-19 12:21:12] beta1_seed1 step  470000/500000  loss    53.32  recon    32.78  KL  20.54     619 it/s
+[2026-10-19 12:21:28] beta1_seed1 step  480000/500000  loss    53.29  recon    32.71  KL  20.58     619 it/s
+[2026-10-19 12:21:44] beta1_seed1 step  490000/500000  loss    53.08  recon    32.48  KL  20.60     619 it/s
+[2026-10-19 12:22:00] beta1_seed1 step  500000/500000  loss    52.86  recon    32.26  KL  20.60     619 it/s
+[2026-10-19 12:22:01] beta1_seed1: done at step 500000
+[2026-10-19 12:22:02] beta1_seed1: wrote runs/beta1_seed1/analysis.npz (checkpoint step 500000)
