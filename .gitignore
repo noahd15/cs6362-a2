@@ -4,3 +4,5 @@ data/
 __pycache__/
 .ipynb_checkpoints/
 data
+*.npz
+paper3_betavae/runs/
